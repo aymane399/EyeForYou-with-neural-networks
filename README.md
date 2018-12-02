@@ -1,7 +1,9 @@
 # EyeForYou
 
-   Copyright - 01 December 2018 - Yassir BENDOU
-    
+   Copyright © - 2018/1019 - Yassir BENDOU
+   
+   License
+   
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
