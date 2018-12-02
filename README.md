@@ -9,4 +9,4 @@ Firt, install opencv using this command
 
 For running the program, use this command
 
-`sudo python innov.py`
+`sudo python main.py`
