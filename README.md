@@ -28,4 +28,4 @@ Firt, install opencv using this command
 
 For running the program, use this command
 
-`sudo python main.py`
+`python main.py`
