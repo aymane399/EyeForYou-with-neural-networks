@@ -22,9 +22,9 @@
    
 Code Material of EyeForYou Project
 
-First, install opencv using this command 
+First, install opencv and other modules using this command 
 
-`pip install numpy opencv-python`
+`pip install  -r requirements.txt`
 
 For running the program, use this command
 

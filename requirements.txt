@@ -1,4 +1,6 @@
 keyboard
 cv2
 pyttsx3
+numpy
+opencv
 
