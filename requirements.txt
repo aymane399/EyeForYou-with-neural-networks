@@ -1,0 +1,4 @@
+keyboard
+cv2
+pyttsx3
+
