@@ -16,7 +16,7 @@ ch.setFormatter(formatter)
 logger.addHandler(ch)
 
 sys.path.append('./object_detection/')
-from yolo import yolo
+import yolo
 
 ############## Text Recognition ################
 

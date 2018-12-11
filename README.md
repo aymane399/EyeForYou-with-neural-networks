@@ -22,10 +22,14 @@
    
 Code Material of EyeForYou Project
 
-Firt, install opencv using this command 
+First, install opencv using this command 
 
 `pip install numpy opencv-python`
 
 For running the program, use this command
 
-`python main.py`
+`sudo python3 main.py`
+
+Important : the sudo is necessary because of the "keyboard" module, which 
+only works on root
+
