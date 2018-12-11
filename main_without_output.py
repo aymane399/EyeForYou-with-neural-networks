@@ -80,7 +80,6 @@ if __name__=='__main__':
     frames_counter=1
     #Default Mode
     Mode='Do Nothing'
-    saying=False
     while True:
 		#Capturing the frame:       
         ret_val, image = cam.read()
@@ -90,15 +89,11 @@ if __name__=='__main__':
         	Mode='Read Text'
         elif keyboard.is_pressed('z'):
             Mode='Obstacle Recognition'
-            saying=False
         elif keyboard.is_pressed('e'):
             Mode='Face Recognition'
 
         elif keyboard.is_pressed('r'):
         	Mode='Do Nothing'
-        elif keyboard.is_pressed('t'):
-            Mode='Obstacle Recognition'
-            saying=True
         Functions={'Read Text':Read_Text,'Obstacle Recognition':yolo,'Face Recognition':Face_Recognition,'Do Nothing':Do_Nothing}
         if frames_counter%3==0:
             output,textes=Functions[Mode](image)
@@ -106,9 +101,8 @@ if __name__=='__main__':
             cv2.putText(output, "FPS: %f Mode Detection : %s" % ((1.0 / (time.time() - fps_time)),Mode), (10, 10),  cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
             cv2.imshow('computation result', output)
             print(textes)
-            if saying:
-                for text in textes:
-                    say(text)
+            #for text in textes:
+                #say(text)
 
 
 
