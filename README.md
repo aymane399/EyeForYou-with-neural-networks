@@ -1,6 +1,14 @@
 # EyeForYou
 
    Copyright © - 2018/1019 - Yassir BENDOU
+                           - Aymane ABDALI
+                           - Sarah El BEJI
+                           - Victor NEPVEU
+                           - Mathis FAVIER
+                           - Cheyma SMEI
+                           - Paul VISSAC
+                           - Yassine EL OUAHIDI
+                           - Isidore VALETTE
    
    ## License
    
