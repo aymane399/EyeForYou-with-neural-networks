@@ -1,7 +1,7 @@
 # EyeForYou
 
-   Copyright © - 2018/1019 - Yassir BENDOU
-                           - Aymane ABDALI
+   Copyright © - 2018/1019 - Aymane ABDALI
+                           - Yassir BENDOU                    
                            - Sarah El BEJI
                            - Victor NEPVEU
                            - Mathis FAVIER
@@ -41,3 +41,4 @@ For running the program, use this command
 Important : the sudo is necessary because of the "keyboard" module, which 
 only works on root
 
+The pytesseract library is also necessary for the OCR to work for more information on how to install it:    -https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
