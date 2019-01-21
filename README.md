@@ -37,7 +37,8 @@ The pytesseract library is also necessary for the OCR to work for more informati
    https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
   
    ## Used Libraries:
-    ### YOLO :
+    
+   ### YOLO :
     You only look once (YOLO) is a state-of-the-art, real-time object detection system
    ![Alt text](yolo_lib/object-detection.jpg?raw=true "Object Detection")
    
