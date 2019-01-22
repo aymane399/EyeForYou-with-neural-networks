@@ -60,3 +60,6 @@ only works on root
    The pytesseract library is necessary for the OCR to work for more information on how to install it and also on the whole OCR code used :   
 
    https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
+   
+   You should also download  the frozen east text detection file from the link belw and place it on the "ocr" directorty.
+   https://www.dropbox.com/s/obi5dpekywhtq05/frozen_east_text_detection.pb?dl=0
