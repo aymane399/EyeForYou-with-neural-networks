@@ -19,7 +19,7 @@
 
    ## Launch Program
    
-Code Material of EyeForYou Project
+### Code Material of EyeForYou Project
 
 First, install opencv and other modules using this command 
 
@@ -35,6 +35,13 @@ only works on root
 The pytesseract library is also necessary for the OCR to work for more information on how to install it:   
 
    https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
+   
+   ### Instructions 
+ The programm is launched by calling the main function and the user can interact using the keyboard:
+ So far three modes are available :
+   - Do nothing mode (By pressing 'r' in the keyboard)
+   - Object recognition mode (By pressing 'z' in the keyboard) : applies YOLO to the rendered frames and vocally outputs the results.
+   - Character recognition mode (By pressing 'a' in the keyboard) : applies OCR to the rendered frames and vocally outputs the recognized words.
   
    ## Used Libraries:
     
