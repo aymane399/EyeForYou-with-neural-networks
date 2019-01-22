@@ -52,4 +52,4 @@ The pytesseract library is also necessary for the OCR to work for more informati
    ### OCR :
     Optical character recognition using LSTM neural network relying on the pytesseract library:
     
-    ![Alt text](ocr/images/example.jpg?raw=true "Character recognition")
+   ![Alt text](ocr/images/example.jpg?raw=true "Character recognition")
