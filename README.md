@@ -32,9 +32,6 @@ For running the program, use this command
 Important : the sudo is necessary because of the "keyboard" module, which 
 only works on root
 
-The pytesseract library is also necessary for the OCR to work for more information on how to install it:   
-
-   https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
    
    ### Instructions 
  The programm is launched by calling the main function and the user can interact using the keyboard:
@@ -59,3 +56,7 @@ The pytesseract library is also necessary for the OCR to work for more informati
    ### OCR :
    Optical character recognition using LSTM neural network relying on the pytesseract library:
    ![Alt text](ocr/images/example.jpg?raw=true "Character recognition")
+   
+   The pytesseract library is necessary for the OCR to work for more information on how to install it and also on the whole OCR code used :   
+
+   https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
