@@ -39,7 +39,7 @@ The pytesseract library is also necessary for the OCR to work for more informati
    ## Used Libraries:
     
    ### YOLO :
-    You only look once (YOLO) is a state-of-the-art, real-time object detection system
+   You only look once (YOLO) is a state-of-the-art, real-time object detection system
    ![Alt text](yolo_lib/object-detection.jpg?raw=true "Object Detection")
    
    We used a pretrained model developped by Darknet:
@@ -50,6 +50,5 @@ The pytesseract library is also necessary for the OCR to work for more informati
       https://pjreddie.com/media/files/yolov3.weights
          
    ### OCR :
-    Optical character recognition using LSTM neural network relying on the pytesseract library:
-    
+   Optical character recognition using LSTM neural network relying on the pytesseract library:
    ![Alt text](ocr/images/example.jpg?raw=true "Character recognition")
