@@ -44,3 +44,12 @@ The pytesseract library is also necessary for the OCR to work for more informati
    
    We used a pretrained model developped by Darknet:
          https://pjreddie.com/darknet/yolo/
+         
+   For the program to work, the weigths file must be downloaded and put in yolo_lib directory.
+   This can be done through the following link:
+      https://pjreddie.com/media/files/yolov3.weights
+         
+   ### OCR :
+    Optical character recognition using LSTM neural network relying on the pytesseract library:
+    
+    ![Alt text](ocr/images/example.jpg?raw=true "Character recognition")
