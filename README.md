@@ -44,7 +44,7 @@ only works on root
     
    ### YOLO :
    You only look once (YOLO) is a state-of-the-art, real-time object detection system
-   ![Alt text](yolo_lib/brain.png?raw=true "Object Detection")
+   ![Alt text](yolo_lib/object-detection.jpg?raw=true "Object Detection")
    
    We used a pretrained model developped by Darknet:
          https://pjreddie.com/darknet/yolo/
